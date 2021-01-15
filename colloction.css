@@ -1,26 +1,7 @@
 @media(min-width:1280px){
-body
-{
-    width: 1920px;
-    height: 2400px;
-}
-.header
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 30px;
-    width: 1920px;
-    height: 100px;
-    background-color: #F5F5F5;
-    font-family: 'Franklin Gothic Book', 'Italic', Arial, sans-serif;
-}
-.header a{
-    color: gray;
-    border-bottom: 0;
-    text-decoration: none;
-}
+
+
+
 .logo
 {
     width: 219px;
@@ -366,64 +347,9 @@ body
 {
     display: flex;
 }
-
-.footer
-{
-    margin-top: 80px;
-    display: flex; 
-    align-self: flex-end;
-    flex-direction: column;
-    width: 1920px;
-    height:379px;
-    background-color: #F5F5F5;
-}
-.yesla
-{
-    display:flex;
-    flex-direction: row;
-    font-family: 'Franklin Gothic Book';
-    color: #B2B3B7;
-    font-size: 20px;
-}
-.aboutus h4
-{
-    margin-left: 314px;
-    margin-bottom: 30px;
-    margin-top: 50px;
-    font-size: 25px;
-    color: #B2B3B7;
-    font-family: 'Franklin Gothic Book', 'Regular';
-}
-.aboutus ul
-{
-    margin-left: 273px;
-    margin-top: auto;
-    display:flex;
-    flex-direction: column;
-}
-.insidefooter
-{
-    margin-top: 13px;
-}
-.service ul
-{
-    margin-left: 340px;
-    margin-top: auto;
-    display:flex;
-    flex-direction: column;
-}
-.service h4 , .contactus h4
-{
-    margin-left: 380px;
-    margin-bottom: 30PX;
-    margin-top: 50px;
-    font-size: 25px;
-    color: #B2B3B7;
-    font-family: 'Franklin Gothic Book', 'Regular';
-}
 .items
 {
-    margin-left: 340px;
+    margin-left: 240px;
 }
 .icon img
 {
@@ -437,9 +363,6 @@ body
 }
 .word p
 {
-    width: 1760px;
-    height: 36px;
-    margin:auto;
     margin-top: 50px;
     padding-top: 20px;
     border-top: gray 1px solid;
