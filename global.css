@@ -1,0 +1,125 @@
+.header 
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16pt;
+    background-color: #F5F5F5;
+    font-family: 'Franklin Gothic Book', 'Italic', Arial, sans-serif;
+}
+
+.home:hover{
+    font-weight:bold;}
+    .logo{
+        margin-bottom: 8px;
+    }
+
+.header a{
+    color: gray;
+    border-bottom: 0;
+    text-decoration: none;
+}
+.nav{
+    order:2;
+}
+.search{
+    order:3;
+    max-width: 300px;
+    width: 100%;
+}
+
+@media(max-width: 475px){
+    .nav a{
+        display: block;
+    }
+    .nav a.border_left {
+        border-top: 2px gray solid;
+        border-left: none;   }
+        .best2 img, .best3 img, .best4 img {
+            
+            margin-left: 0px!important;
+        }
+}
+
+@media (max-width: 1439px){
+    .search{
+        order: 2;
+    }
+    .nav{
+        order: 3;
+    }
+}
+body
+{
+    margin: 0 0 0 0;
+}
+.footer
+{
+    margin-top: 80px;
+    display: flex; 
+    align-self: flex-end;
+    flex-direction: column;
+    background-color: #F5F5F5;
+}
+
+.yesla h4{
+    padding-left: 40px;
+}
+
+.yesla>div{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.footer
+{
+    margin-top: 80px;
+    display: flex; 
+    align-self: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #F5F5F5;
+}
+.yesla
+{
+    display:flex;
+    flex-direction: row;
+    font-family: 'Franklin Gothic Book';
+    color: #B2B3B7;
+    font-size: 20px;
+}
+.aboutus h4
+{
+    margin-bottom: 30px;
+    margin-top: 50px;
+    font-size: 25px;
+    color: #B2B3B7;
+    font-family: 'Franklin Gothic Book', 'Regular';
+}
+.aboutus ul
+{
+    margin-top: auto;
+    display:flex;
+    flex-direction: column;
+}
+.insidefooter
+{
+    margin-top: 13px;
+}
+.service ul
+{
+    margin-top: auto;
+    display:flex;
+    flex-direction: column;
+}
+.service h4 , .contactus h4
+{
+    margin-bottom: 30PX;
+    margin-top: 50px;
+    font-size: 25px;
+    color: #B2B3B7;
+    font-family: 'Franklin Gothic Book', 'Regular';
+}
